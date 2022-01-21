@@ -1,0 +1,47 @@
+<div className="Blockreact__Block-sc-1xf18x6-0 Assetreact__StyledContainer-sc-bnjqwy-0 dBFmez bwCDxg Asset--loaded">
+        <div height="10" width="auto" class="Blockreact__Block-sc-1xf18x6-0 dswXzw">
+          <div visibility="hidden" width="100%" class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 CenterAlignedreact__CenterAligned-sc-cjf6mn-0 gsolym jYqxGr ksFzlZ iXcsEj cgnEmv">
+            <div width="94%" class="Blockreact__Block-sc-1xf18x6-0 Assetreact__StackedCard-sc-bnjqwy-1 lnsJlG fjXMxm">
+            </div>
+            <div width="98%" class="Blockreact__Block-sc-1xf18x6-0 Assetreact__StackedCard-sc-bnjqwy-1 hdbEPW fjXMxm">
+            </div>
+          </div>
+        </div>
+      <article class="Assetreact__AssetCard-sc-bnjqwy-2 fXFHnS Asset--loaded AssetSearchList--asset" style="width: 396px;">
+      <a class="styles__StyledLink-sc-l6elh8-0 ekTmzq Asset--anchor" href="/assets/0xd4e4078ca3495de5b1d4db434bebc5a986197782/209">
+      <div class="Blockreact__Block-sc-1xf18x6-0 AssetCardContentreact__StyledContainer-sc-a8q9zx-0 bLjycD egubqN" style="height: 394px; width: 394px;">
+      <div class="AssetMediareact__DivContainer-sc-1v86bfg-2 iuBeFR">
+      <div height="100%" width="100%" class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 CenterAlignedreact__CenterAligned-sc-cjf6mn-0 hrxdhe jYqxGr ksFzlZ iXcsEj cgnEmv">
+      <div class="Imagereact__DivContainer-sc-dy59cl-0 kMPTZo Image--fade Image--isImageLoaded Image--isImageLoaderVisible AssetMedia--img" style="height: 100%; width: 394px;">
+      <img alt="Autoglyph #209" class="Image--image" src="https://storage.opensea.io/files/95eb781afeec9424103bc8386029fd63.svg" style="object-fit: cover; width: 100%; height: 100%; max-width: 100%; max-height: 100%; border-radius: 0px;">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 SpaceBetweenreact__SpaceBetween-sc-jjxyhg-0 AssetCardFooterreact__StyledContainer-sc-nedjig-0 bFcjdD jYqxGr gJwgfT cBTfDg"><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 SpaceBetweenreact__SpaceBetween-sc-jjxyhg-0 lcXrbo jYqxGr gJwgfT">
+      <div width="60%" class="Blockreact__Block-sc-1xf18x6-0 kvfJjG"><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 gctoET jYqxGr"><div class="Blockreact__Block-sc-1xf18x6-0 jUWRIc">
+      <a class="styles__StyledLink-sc-l6elh8-0 ekTmzq AssetCardFooter--collection-name" href="/collection/autoglyphs">
+      <div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 dBFmez jYqxGr"><div class="Overflowreact__OverflowContainer-sc-7qr9y8-0 jPSCbX">
+      Autoglyphs
+      </div>
+      <div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 dBFmez jYqxGr AssetCardFooter--collection-state-icon-container"><svg class="VerifiedIconreact__StyledSvg-sc-50keu7-0 ljSZXh AssetCardFooter--collection-state-icon" fill="none" viewBox="0 0 30 30"><path class="VerifiedIcon--background" d="M13.474 2.80108C14.2729 1.85822 15.7271 1.85822 16.526 2.80108L17.4886 3.9373C17.9785 4.51548 18.753 4.76715 19.4892 4.58733L20.9358 4.23394C22.1363 3.94069 23.3128 4.79547 23.4049 6.0278L23.5158 7.51286C23.5723 8.26854 24.051 8.92742 24.7522 9.21463L26.1303 9.77906C27.2739 10.2474 27.7233 11.6305 27.0734 12.6816L26.2903 13.9482C25.8918 14.5928 25.8918 15.4072 26.2903 16.0518L27.0734 17.3184C27.7233 18.3695 27.2739 19.7526 26.1303 20.2209L24.7522 20.7854C24.051 21.0726 23.5723 21.7315 23.5158 22.4871L23.4049 23.9722C23.3128 25.2045 22.1363 26.0593 20.9358 25.7661L19.4892 25.4127C18.753 25.2328 17.9785 25.4845 17.4886 26.0627L16.526 27.1989C15.7271 28.1418 14.2729 28.1418 13.474 27.1989L12.5114 26.0627C12.0215 25.4845 11.247 25.2328 10.5108 25.4127L9.06418 25.7661C7.86371 26.0593 6.6872 25.2045 6.59513 23.9722L6.48419 22.4871C6.42773 21.7315 5.94903 21.0726 5.24777 20.7854L3.86969 20.2209C2.72612 19.7526 2.27673 18.3695 2.9266 17.3184L3.70973 16.0518C4.10824 15.4072 4.10824 14.5928 3.70973 13.9482L2.9266 12.6816C2.27673 11.6305 2.72612 10.2474 3.86969 9.77906L5.24777 9.21463C5.94903 8.92742 6.42773 8.26854 6.48419 7.51286L6.59513 6.0278C6.6872 4.79547 7.86371 3.94069 9.06418 4.23394L10.5108 4.58733C11.247 4.76715 12.0215 4.51548 12.5114 3.9373L13.474 2.80108Z"></path><path d="M13.5 17.625L10.875 15L10 15.875L13.5 19.375L21 11.875L20.125 11L13.5 17.625Z" fill="white" stroke="white"></path></svg></div></div></a></div></div><div class="Overflowreact__OverflowContainer-sc-7qr9y8-0 jRbcys" tabindex="-1"><div class="AssetCardFooter--name">Autoglyph #209</div></div></div><div width="40%" class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 iOJWKT jYqxGr ksFzlZ"><div class="AssetCardFooter--price"><span font-weight="400" class="Blockreact__Block-sc-1xf18x6-0 Textreact__Text-sc-1w94ul3-0 cByFQg fPWWHD">Price</span><div class="Pricereact__DivContainer-sc-t54vn5-0 iBLrYW Price--main AssetCardFooter--price-amount"><div cursor="pointer" class="Blockreact__Block-sc-1xf18x6-0 kTFrxw"><div size="14" class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 CenterAlignedreact__CenterAligned-sc-cjf6mn-0 Avatarreact__AvatarContainer-sc-sbw25j-0 hkQgWj jYqxGr ksFzlZ iXcsEj cgnEmv dukFGY"><img alt="ETH" class="Blockreact__Block-sc-1xf18x6-0 Avatarreact__ImgAvatar-sc-sbw25j-1 hkQgWj hzWBaN Price--eth-icon" src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" size="14"></div></div><div class="Overflowreact__OverflowContainer-sc-7qr9y8-0 jPSCbX Price--amount" tabindex="-1">169 <span class="Price--raw-symbol"></span></div></div></div><div class="Blockreact__Block-sc-1xf18x6-0 dBFmez AssetCardFooter--trading-annotations"><div class="AssetCardFooter--annotations-item"><div class="AssetCardFooter--annotations-item-text">Last</div><div class="Blockreact__Block-sc-1xf18x6-0 iPmbtq"><div class="Pricereact__DivContainer-sc-t54vn5-0 iBLrYW Price--main"><div cursor="pointer" class="Blockreact__Block-sc-1xf18x6-0 kTFrxw"><div size="11" class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 CenterAlignedreact__CenterAligned-sc-cjf6mn-0 Avatarreact__AvatarContainer-sc-sbw25j-0 iEfMrv jYqxGr ksFzlZ iXcsEj cgnEmv dukFGY"><img alt="ETH" class="Blockreact__Block-sc-1xf18x6-0 Avatarreact__ImgAvatar-sc-sbw25j-1 iEfMrv hzWBaN Price--eth-icon" src="https://storage.opensea.io/files/6f8e2979d428180222796ff4a33ab929.svg" size="11"></div></div><div class="Overflowreact__OverflowContainer-sc-7qr9y8-0 jPSCbX Price--amount" tabindex="-1">5 <span class="Price--raw-symbol"></span></div></div></div></div></div></div></div><footer class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 SpaceBetweenreact__SpaceBetween-sc-jjxyhg-0 AssetCardAnnotationsreact__StyledContainer-sc-1i5b3a5-0 dBFmez jYqxGr gJwgfT dpixWl"><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 gctoET jYqxGr"><div class="fresnel-container fresnel-greaterThan-sm "><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 AssetCardAnnotationsreact__AssetCardAnnotationsBuyNowContainer-sc-1i5b3a5-1 dBFmez jYqxGr ksFzlZ iXcsEj grFswr"><button type="button" class="UnstyledButtonreact__UnstyledButton-sc-ty1bh0-0 btgkrL"><p font-size="14px" class="Blockreact__Block-sc-1xf18x6-0 Textreact__Text-sc-1w94ul3-0 dDJJww dsumKY">Buy now</p></button></div></div><div class="fresnel-container fresnel-greaterThan-sm "><div class="AssetCardAnnotationsreact__AssetCardAnnotationsIconsWithBuyNowContainer-sc-1i5b3a5-2 gPrdDC"><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 dBFmez jYqxGr">
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 gctoET jYqxGr">
+      <button type="button" class="UnstyledButtonreact__UnstyledButton-sc-ty1bh0-0 btgkrL">
+      <i size="20" aria-label="Favorite" value="favorite_border" class="Iconreact__Icon-sc-1gugx8q-0 FavoriteIconreact__StyledIcon-sc-289aae-0 irmnIh fNbWaJ material-icons">
+      favorite_border
+      </i>
+      </button>
+      <p class="Blockreact__Block-sc-1xf18x6-0 Textreact__Text-sc-1w94ul3-0 dBFmez gwsEKa"><div class="Blockreact__Block-sc-1xf18x6-0 Flexreact__Flex-sc-1twd32i-0 FlexColumnreact__FlexColumn-sc-1wwz3hp-0 VerticalAlignedreact__VerticalAligned-sc-b4hiel-0 kDRydb jYqxGr ksFzlZ iXcsEj">
+      65
+      </div>
+      </p>
+      </div>
+      </footer>
+      </div>
+      </a>
+      </article>
+      </div>
