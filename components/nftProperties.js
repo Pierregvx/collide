@@ -14,4 +14,6 @@ listUri.forEach(element => {
   	jsons.push(data);
   })
 });
-export {jsons}
+const k =(<div></div>)
+
+export{jsons}

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import{jsons} from'./components/nftProperties'
+import{jsons} from'../components/nftProperties'
 
 function oneblock(json){
   console.log(json);
