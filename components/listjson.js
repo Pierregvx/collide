@@ -1,0 +1,2 @@
+const json2 =[{name: 'CV Pierre Gu�veneux', description: 'my cv : https://devinci-my.sharepoint.com/personal…erre%5Fgueveneux%5Fedu%5Fdevinci%5Ffr%2FDocuments', image: 'https://ipfs.moralis.io:2053/ipfs/QmejiBzfq7AojVYk7fn1ZvzqMfs7cbmVH4oxkHf8CHhVsF', price: 0.6},{name: 'CV Pierre Gu�veneux', description: 'my cv : https://devinci-my.sharepoint.com/personal…erre%5Fgueveneux%5Fedu%5Fdevinci%5Ffr%2FDocuments', image: 'https://ipfs.moralis.io:2053/ipfs/QmejiBzfq7AojVYk7fn1ZvzqMfs7cbmVH4oxkHf8CHhVsF', price: 0.6}]
+export default json2

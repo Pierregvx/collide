@@ -1,8 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
+import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 import Block from './block'
-
+import { useWeb3React } from "@web3-react/core";
+import {login} from "../functions/functions";
 
 
 
@@ -102,14 +104,16 @@ export default function Home() {
     </Head>
     <div>
       <h1 className='title'>Mint your Collide Item</h1>
-      
+      <a className="sbouton bouton " id="submit"  onClick={login}>Connect MetaMask </a>
       <div>
       <Block/>
       </div>
       
     </div>
-    </div>
     
+    <Script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></Script>
+
+    <Script src="https://unpkg.com/moralis/dist/moralis.js"></Script></div>
     
   )
 }
