@@ -4,13 +4,14 @@ Ethereum Rinkeby 0x0Fb6EF3505b9c52Ed39595433a21aF9B5FCc4431
 Polygon Mumbai 0x351bbee7C6E9268A1BF741B098448477E08A0a53
 BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD
 */
+import abi from '../components/Abi'
 var info = 'none given'
 var nft_contract_address='';
 function init()
 {console.log('test');
 
   web3 = new Web3(window.web3.currentProvider);
- nft_contract_address = "0x452f45d2f9501a3BC9d93767Ee443aE4D50FE1AE" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
+ nft_contract_address = "0xc6606e823038c58E5c32ac9A5A447b1bF605EE1B" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
 }
 //frontend logic
 
@@ -27,49 +28,41 @@ console.log(web3.currentProvider.chainId)
 
 
 
-async function upload(){
-    try {
-      await web3.currentProvider.request({
-        method: "wallet_switchEthereumChain",
-        params: [{ chainId: "0x4" }]
-      });
-    } catch (error) {
-      alert(error.message);
-    }
+async function upload(metadataURI){
+    init();
+  
     
-    var Contract = require('web3-eth-contract');
-    nft_contract_address='0x452f45d2f9501a3BC9d93767Ee443aE4D50FE1AE';
+    nft_contract_address = "0xc6606e823038c58E5c32ac9A5A447b1bF605EE1B"
     
-    
-    const requestValidation = await mintToken()
-    
+    console.log('metadata',metadataURI)
+    const txt = await mintToken(metadataURI)
   }
   
-  async function mintToken(){
-    info = "e";
-    console.log("info :",info)
-    web3 = new Web3(window.web3.currentProvider);
+  async function mintToken(_uri){
     const encodedFunction = web3.eth.abi.encodeFunctionCall({
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "tokenURI",
+            "type": "string"
+          },
+          {
+            "internalType": "address payable",
+            "name": "_royaltiesRecipientAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint96",
+            "name": "_percentageBasicPoints",
+            "type": "uint96"
+          }
+        ],
+        "name": "mintAndRoyalties",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },[ _uri,"0x2EB996E2B20fA0084b6BD96308739B36f5B17d18",1000]);
   
-      "inputs": [
-        {
-          "internalType": "string",
-          "name": "_info",
-          "type": "string"
-        }
-      ],
-      "name": "mintToken",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },[info]);
-  console.log('encode fct done')
     const transactionParameters = {
       to: nft_contract_address,
       from: ethereum.selectedAddress,

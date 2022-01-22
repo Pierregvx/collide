@@ -3,27 +3,17 @@ import Head from 'next/head'
 import Script from 'next/script'
 import styles from '../styles/Home.module.css'
 import Block from './block'
-import { useWeb3React } from "@web3-react/core";
+
 import {login} from "../functions/functions";
 
 
 
  
   
-  
-function myData(Data)
-{
-  console.log("tst",Data[0]);
-}
-// loadJSON method to open the JSON file.
-
-
+const axios = require('axios');
+ 
 
 export default function Home() {
-  
-
-
-
   return (
     <div>
       <Head> 
@@ -31,18 +21,19 @@ export default function Home() {
     .elem{
       display:flex;
       items-align:center;
+      
     }
     .itemdescription{
     border-radius: 20px;
     border:2px solid black;
-    
+    cursor: pointer;
     margin : 10px 10px 10px 10px;
     width :210px;
     
     }
   .images{
     object-fit: cover;
-    width: 100%;
+    width: 97%;
     height: 100%;
     max-width: 100%;
     max-height: 100%;
@@ -98,14 +89,17 @@ export default function Home() {
         padding:10px;
         
       }
-    
+      .listeitem{
+        width:70%;
+      }
+  
   `}
     </style>
     </Head>
     <div>
       <h1 className='title'>Mint your Collide Item</h1>
       <a className="sbouton bouton " id="submit"  onClick={login}>Connect MetaMask </a>
-      <div>
+      <div className='listeitem'>
       <Block/>
       </div>
       
