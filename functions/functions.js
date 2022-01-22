@@ -11,7 +11,7 @@ function init()
 {console.log('test');
 
   web3 = new Web3(window.web3.currentProvider);
- nft_contract_address = "0xc6606e823038c58E5c32ac9A5A447b1bF605EE1B" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
+ nft_contract_address = "0x42E6619bdB6C295B5BdaC73EE547353c3FE12a9B" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
 }
 //frontend logic
 
@@ -32,7 +32,7 @@ async function upload(metadataURI){
     init();
   
     
-    nft_contract_address = "0xc6606e823038c58E5c32ac9A5A447b1bF605EE1B"
+    nft_contract_address = "0x42E6619bdB6C295B5BdaC73EE547353c3FE12a9B"
     
     console.log('metadata',metadataURI)
     const txt = await mintToken(metadataURI)
@@ -40,37 +40,40 @@ async function upload(metadataURI){
   
   async function mintToken(_uri){
     const encodedFunction = web3.eth.abi.encodeFunctionCall({
-        "inputs": [
-          {
-            "internalType": "string",
-            "name": "tokenURI",
-            "type": "string"
-          },
-          {
-            "internalType": "address payable",
-            "name": "_royaltiesRecipientAddress",
-            "type": "address"
-          },
-          {
-            "internalType": "uint96",
-            "name": "_percentageBasicPoints",
-            "type": "uint96"
-          }
-        ],
-        "name": "mintAndRoyalties",
-        "outputs": [],
-        "stateMutability": "nonpayable",
-        "type": "function"
-      },[ _uri,"0x2EB996E2B20fA0084b6BD96308739B36f5B17d18",1000]);
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "tokenURI",
+          "type": "string"
+        },
+        {
+          "internalType": "address payable",
+          "name": "_royaltiesRecipientAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint96",
+          "name": "_percentageBasicPoints",
+          "type": "uint96"
+        }
+      ],
+      "name": "mintAndRoyalties",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function",
+      "payable": true
+    },[ _uri,"0x2EB996E2B20fA0084b6BD96308739B36f5B17d18",1000]);
   
     const transactionParameters = {
       to: nft_contract_address,
       from: ethereum.selectedAddress,
+      value:"853A0D2313C0000",
       data: encodedFunction
     };
     const txt = await ethereum.request({
       method: 'eth_sendTransaction',
-      params: [transactionParameters]
+      params: [transactionParameters],
+
     });
     return txt
   }
