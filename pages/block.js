@@ -9,7 +9,7 @@ function oneblock(json){
     return(
     
       
-        <a className='itemdescription' onClick={()=>upload(json['ipfs'])}>
+        <a className='itemdescription' onClick={()=>upload(json['ipfs'],json['price'])}>
             <div className='containerImg' >
               <img className='images'src={json["image"]} ></img>
             </div>

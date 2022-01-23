@@ -28,17 +28,22 @@ console.log(web3.currentProvider.chainId)
 
 
 
-async function upload(metadataURI){
+async function upload(metadataURI,price){
     init();
   
     
     nft_contract_address = "0x29A2c24Ba2Aa80461312e71A3B930A0B78494469"
     
     console.log('metadata',metadataURI)
-    const txt = await mintToken(metadataURI)
+    price *= 1000000000000000000
+    var hexString = price.toString(16);
+    console.log(hexString);
+    
+    
+    const txt = await mintToken(metadataURI,hexString )
   }
   
-  async function mintToken(_uri){
+  async function mintToken(_uri,hexString ){
     const encodedFunction = web3.eth.abi.encodeFunctionCall(  {
       "inputs": [
         {
@@ -67,7 +72,7 @@ async function upload(metadataURI){
     const transactionParameters = {
       to: nft_contract_address,
       from: ethereum.selectedAddress,
-      value:"853A0D2313C0000",
+      value:hexString ,
       data: encodedFunction
     };
     const txt = await ethereum.request({
