@@ -11,7 +11,7 @@ function init()
 {console.log('test');
 
   web3 = new Web3(window.web3.currentProvider);
- nft_contract_address = "0x42E6619bdB6C295B5BdaC73EE547353c3FE12a9B" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
+ nft_contract_address = "0x29A2c24Ba2Aa80461312e71A3B930A0B78494469" //NFT Minting Contract Use This One "Batteries Included", code of this contract is in the github repository under contract_base for your reference.
 }
 //frontend logic
 
@@ -32,14 +32,14 @@ async function upload(metadataURI){
     init();
   
     
-    nft_contract_address = "0x42E6619bdB6C295B5BdaC73EE547353c3FE12a9B"
+    nft_contract_address = "0x29A2c24Ba2Aa80461312e71A3B930A0B78494469"
     
     console.log('metadata',metadataURI)
     const txt = await mintToken(metadataURI)
   }
   
   async function mintToken(_uri){
-    const encodedFunction = web3.eth.abi.encodeFunctionCall({
+    const encodedFunction = web3.eth.abi.encodeFunctionCall(  {
       "inputs": [
         {
           "internalType": "string",
