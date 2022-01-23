@@ -92,13 +92,23 @@ export default function Home() {
       .listeitem{
         width:70%;
       }
-  
+      .meta{
+        background: #0d0ac7a1;
+        padding: 7px 7px 7px 2px;
+    border-radius: 3px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+      }
+      
   `}
     </style>
     </Head>
     <div>
       <h1 className='title'>Mint your Collide Item</h1>
-      <a className="sbouton bouton " id="submit"  onClick={login}>Connect MetaMask </a>
+      <a  className="meta " id="submit"  onClick={login}>Connect MetaMask </a>
       <div className='listeitem'>
       <Block/>
       </div>
