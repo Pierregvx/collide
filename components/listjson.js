@@ -3,7 +3,7 @@ const json2 =[
         name: 'Pencil color ',
         description: 'to colorize', 
         image: 'https://gateway.pinata.cloud/ipfs/QmavcGEDhGKb3SyC3fdprFtibtfGgvYQy4wq39BxJaz47P', 
-        price: 0.6,
+        price: 0.7,
         ipfs : "https://ipfs.io/ipfs/QmfUiFZwq7JswpNKN5cD2QbwCPiC9ELmDSFJSmraHn1oUt"
         
     },
