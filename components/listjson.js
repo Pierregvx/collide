@@ -1,7 +1,7 @@
 const json2 =[
     {
         name: 'Pencil color ',
-        description: 'to colorize', 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ", 
         image: 'https://gateway.pinata.cloud/ipfs/QmavcGEDhGKb3SyC3fdprFtibtfGgvYQy4wq39BxJaz47P', 
         price: 0.7,
         ipfs : "https://ipfs.io/ipfs/QmfUiFZwq7JswpNKN5cD2QbwCPiC9ELmDSFJSmraHn1oUt"

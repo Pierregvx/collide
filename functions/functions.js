@@ -7,6 +7,7 @@ BSC Testnet 0x88624DD1c725C6A95E223170fa99ddB22E1C6DDD
 import abi from '../components/Abi'
 var info = 'none given'
 var nft_contract_address='';
+
 function init()
 {console.log('test');
 
@@ -17,6 +18,7 @@ function init()
 
 async function login(){
   
+    
   await window.web3.currentProvider.enable();
   init();
   Moralis.initialize("7fFnU2oaOFBieq0l8I5iMMT1r4njGaBjC0yshCIy"); // Application id from moralis.io
@@ -30,6 +32,14 @@ console.log(web3.currentProvider.chainId)
 
 async function upload(metadataURI,price){
     init();
+    try {
+      await web3.currentProvider.request({
+        method: "wallet_switchEthereumChain",
+        params: [{ chainId: "0x4" }],
+      });
+    } catch (error) {
+      
+    }
   
     
     nft_contract_address = "0x29A2c24Ba2Aa80461312e71A3B930A0B78494469"

@@ -18,6 +18,7 @@ export default function Home() {
     <div>
       <Head> 
     <style>{`
+    
     .elem{
       display:flex;
       items-align:center;
@@ -100,15 +101,39 @@ export default function Home() {
     text-align: center;
     align-items: center;
     cursor: pointer;
+    
+    font-size:20px;
 
       }
-      
+      .fulldescription{
+  
+        text-align:center;
+        max-width: 300px;
+        background:#eee;
+        line-height: 1;
+        padding: 7px 17px 7px 2px;
+        max-width: 200px;
+        border-radius: 15px;
+        
+      }
+      .meta2{
+        background: #c7ceea;
+        padding: 4px 4px 4px 4px;
+        color:white;
+    border-radius: 3px;
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    max-width: 300px;
+    overflow: hidden;
+      }
   `}
     </style>
     </Head>
     <div>
-      <h1 className='title'>Mint your Collide Item</h1>
-      <a  className="meta " id="submit"  onClick={login}>Connect MetaMask </a>
+      <h1 className='title'>Mint your Collide Item <br></br><a  className="meta " id="submit"  onClick={login}>Connect MetaMask </a></h1>
+      
       <div className='listeitem'>
       <Block/>
       </div>
